@@ -155,9 +155,9 @@ nsrecords(){
 
                 echo "Checking http://crt.sh"
                 searchcrtsh $domain
-                echo "Starting Massdns Subdomain discovery this may take a while"
-                mass $domain > /dev/null
-                echo "Massdns finished..."
+#                echo "Starting Massdns Subdomain discovery this may take a while"
+#                mass $domain > /dev/null
+#                echo "Massdns finished..."
                 echo "${green}Started dns records check...${reset}"
                 echo "Looking into CNAME Records..."
 
